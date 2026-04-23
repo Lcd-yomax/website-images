@@ -42,6 +42,12 @@ export const images = [
     "url": "./900M-T-IS.png"
   },
   {
+    "fileName": "900m-T-KSI.png",
+    "displayName": "900m-T-KSI",
+    "extension": "png",
+    "url": "./900m-T-KSI.png"
+  },
+  {
     "fileName": "B7000 [110ML].png",
     "displayName": "B7000 [110ML]",
     "extension": "png",
@@ -72,10 +78,34 @@ export const images = [
     "url": "./C210-TS.png"
   },
   {
+    "fileName": "CP-0001 (15ml).png",
+    "displayName": "CP-0001 (15ml)",
+    "extension": "png",
+    "url": "./CP-0001%20(15ml).png"
+  },
+  {
+    "fileName": "CP-0002 (15ml).png",
+    "displayName": "CP-0002 (15ml)",
+    "extension": "png",
+    "url": "./CP-0002%20(15ml).png"
+  },
+  {
     "fileName": "D75T--IMAT MAX.png",
     "displayName": "D75T--IMAT MAX",
     "extension": "png",
     "url": "./D75T--IMAT%20MAX.png"
+  },
+  {
+    "fileName": "DT-19N (2).png",
+    "displayName": "DT-19N (2)",
+    "extension": "png",
+    "url": "./DT-19N%20(2).png"
+  },
+  {
+    "fileName": "DT-19N.png",
+    "displayName": "DT-19N",
+    "extension": "png",
+    "url": "./DT-19N.png"
   },
   {
     "fileName": "FALCON 530.png",
@@ -88,6 +118,12 @@ export const images = [
     "displayName": "Five Mx",
     "extension": "png",
     "url": "./Five%20Mx.png"
+  },
+  {
+    "fileName": "GF-2.png",
+    "displayName": "GF-2",
+    "extension": "png",
+    "url": "./GF-2.png"
   },
   {
     "fileName": "GLUT7 110ML.png",
@@ -174,16 +210,232 @@ export const images = [
     "url": "./MPro.png"
   },
   {
+    "fileName": "P1 PRO MAX.png",
+    "displayName": "P1 PRO MAX",
+    "extension": "png",
+    "url": "./P1%20PRO%20MAX.png"
+  },
+  {
     "fileName": "POWER BOX 2.0.png",
     "displayName": "POWER BOX 2.0",
     "extension": "png",
     "url": "./POWER%20BOX%202.0.png"
   },
   {
+    "fileName": "QUICK 2008.png",
+    "displayName": "QUICK 2008",
+    "extension": "png",
+    "url": "./QUICK%202008.png"
+  },
+  {
+    "fileName": "QUICK 203H.png",
+    "displayName": "QUICK 203H",
+    "extension": "png",
+    "url": "./QUICK%20203H.png"
+  },
+  {
+    "fileName": "QUICK 236_907D.png",
+    "displayName": "QUICK 236_907D",
+    "extension": "png",
+    "url": "./QUICK%20236_907D.png"
+  },
+  {
+    "fileName": "Quick 712 2in 1.png",
+    "displayName": "Quick 712 2in 1",
+    "extension": "png",
+    "url": "./Quick%20712%202in%201.png"
+  },
+  {
+    "fileName": "Quick 936E_907E.png",
+    "displayName": "Quick 936E_907E",
+    "extension": "png",
+    "url": "./Quick%20936E_907E.png"
+  },
+  {
+    "fileName": "QUICK Q8.png",
+    "displayName": "QUICK Q8",
+    "extension": "png",
+    "url": "./QUICK%20Q8.png"
+  },
+  {
+    "fileName": "QUICK TS1100.png",
+    "displayName": "QUICK TS1100",
+    "extension": "png",
+    "url": "./QUICK%20TS1100.png"
+  },
+  {
+    "fileName": "QUICK TS1200A.png",
+    "displayName": "QUICK TS1200A",
+    "extension": "png",
+    "url": "./QUICK%20TS1200A.png"
+  },
+  {
     "fileName": "R11 PRO.png",
     "displayName": "R11 PRO",
     "extension": "png",
     "url": "./R11%20PRO.png"
+  },
+  {
+    "fileName": "RELIEFE M-13.png",
+    "displayName": "RELIEFE M-13",
+    "extension": "png",
+    "url": "./RELIEFE%20M-13.png"
+  },
+  {
+    "fileName": "RELIEFE M-14.png",
+    "displayName": "RELIEFE M-14",
+    "extension": "png",
+    "url": "./RELIEFE%20M-14.png"
+  },
+  {
+    "fileName": "Reliefe M5T-STL2.png",
+    "displayName": "Reliefe M5T-STL2",
+    "extension": "png",
+    "url": "./Reliefe%20M5T-STL2.png"
+  },
+  {
+    "fileName": "RELIFE M-12.png",
+    "displayName": "RELIFE M-12",
+    "extension": "png",
+    "url": "./RELIFE%20M-12.png"
+  },
+  {
+    "fileName": "RELIFE M-21.png",
+    "displayName": "RELIFE M-21",
+    "extension": "png",
+    "url": "./RELIFE%20M-21.png"
+  },
+  {
+    "fileName": "RELIFE M-22.png",
+    "displayName": "RELIFE M-22",
+    "extension": "png",
+    "url": "./RELIFE%20M-22.png"
+  },
+  {
+    "fileName": "RELIFE RL-304S.png",
+    "displayName": "RELIFE RL-304S",
+    "extension": "png",
+    "url": "./RELIFE%20RL-304S.png"
+  },
+  {
+    "fileName": "RELIFE RL-C210 tip.png",
+    "displayName": "RELIFE RL-C210 tip",
+    "extension": "png",
+    "url": "./RELIFE%20RL-C210%20tip.png"
+  },
+  {
+    "fileName": "RL-059 Plus.png",
+    "displayName": "RL-059 Plus",
+    "extension": "png",
+    "url": "./RL-059%20Plus.png"
+  },
+  {
+    "fileName": "RL-726_y0.6.png",
+    "displayName": "RL-726_y0.6",
+    "extension": "png",
+    "url": "./RL-726_y0.6.png"
+  },
+  {
+    "fileName": "S-918 plus AI.png",
+    "displayName": "S-918 plus AI",
+    "extension": "png",
+    "url": "./S-918%20plus%20AI.png"
+  },
+  {
+    "fileName": "S-918F PLUS AI.png",
+    "displayName": "S-918F PLUS AI",
+    "extension": "png",
+    "url": "./S-918F%20PLUS%20AI.png"
+  },
+  {
+    "fileName": "S-959P.png",
+    "displayName": "S-959P",
+    "extension": "png",
+    "url": "./S-959P.png"
+  },
+  {
+    "fileName": "SL-210-I.png",
+    "displayName": "SL-210-I",
+    "extension": "png",
+    "url": "./SL-210-I.png"
+  },
+  {
+    "fileName": "SS-033(black).png",
+    "displayName": "SS-033(black)",
+    "extension": "png",
+    "url": "./SS-033(black).png"
+  },
+  {
+    "fileName": "SS-719 +1.5.png",
+    "displayName": "SS-719 +1.5",
+    "extension": "png",
+    "url": "./SS-719%20%2B1.5.png"
+  },
+  {
+    "fileName": "SS-RL-726_+1.5.png",
+    "displayName": "SS-RL-726_+1.5",
+    "extension": "png",
+    "url": "./SS-RL-726_%2B1.5.png"
+  },
+  {
+    "fileName": "SS-RL-726_y0.8.png",
+    "displayName": "SS-RL-726_y0.8",
+    "extension": "png",
+    "url": "./SS-RL-726_y0.8.png"
+  },
+  {
+    "fileName": "Sunshine B7000 (110ml).png",
+    "displayName": "Sunshine B7000 (110ml)",
+    "extension": "png",
+    "url": "./Sunshine%20B7000%20(110ml).png"
+  },
+  {
+    "fileName": "Sunshine M-24.png",
+    "displayName": "Sunshine M-24",
+    "extension": "png",
+    "url": "./Sunshine%20M-24.png"
+  },
+  {
+    "fileName": "Sunshine P-3005D.png",
+    "displayName": "Sunshine P-3005D",
+    "extension": "png",
+    "url": "./Sunshine%20P-3005D.png"
+  },
+  {
+    "fileName": "Sunshine RL-601P.png",
+    "displayName": "Sunshine RL-601P",
+    "extension": "png",
+    "url": "./Sunshine%20RL-601P.png"
+  },
+  {
+    "fileName": "Sunshine S245.png",
+    "displayName": "Sunshine S245",
+    "extension": "png",
+    "url": "./Sunshine%20S245.png"
+  },
+  {
+    "fileName": "SUNSHINE SL-908.png",
+    "displayName": "SUNSHINE SL-908",
+    "extension": "png",
+    "url": "./SUNSHINE%20SL-908.png"
+  },
+  {
+    "fileName": "Sunshine SS-304Q Chargement intelligent par éclair (2).png",
+    "displayName": "Sunshine SS-304Q Chargement intelligent par éclair (2)",
+    "extension": "png",
+    "url": "./Sunshine%20SS-304Q%20Chargement%20intelligent%20par%20%C3%A9clair%20(2).png"
+  },
+  {
+    "fileName": "Sunshine SS-304Q Chargement intelligent par éclair.png",
+    "displayName": "Sunshine SS-304Q Chargement intelligent par éclair",
+    "extension": "png",
+    "url": "./Sunshine%20SS-304Q%20Chargement%20intelligent%20par%20%C3%A9clair.png"
+  },
+  {
+    "fileName": "SUNSHINE SS-6605.png",
+    "displayName": "SUNSHINE SS-6605",
+    "extension": "png",
+    "url": "./SUNSHINE%20SS-6605.png"
   },
   {
     "fileName": "T12 MAX.png",
@@ -198,10 +450,46 @@ export const images = [
     "url": "./T12%20pro.png"
   },
   {
+    "fileName": "T7000 50ML (2).png",
+    "displayName": "T7000 50ML (2)",
+    "extension": "png",
+    "url": "./T7000%2050ML%20(2).png"
+  },
+  {
+    "fileName": "T7000 50ML (3).png",
+    "displayName": "T7000 50ML (3)",
+    "extension": "png",
+    "url": "./T7000%2050ML%20(3).png"
+  },
+  {
+    "fileName": "T7000 50ML.png",
+    "displayName": "T7000 50ML",
+    "extension": "png",
+    "url": "./T7000%2050ML.png"
+  },
+  {
     "fileName": "T7000 [50ML].png",
     "displayName": "T7000 [50ML]",
     "extension": "png",
     "url": "./T7000%20%5B50ML%5D.png"
+  },
+  {
+    "fileName": "TB-01 Ultra.png",
+    "displayName": "TB-01 Ultra",
+    "extension": "png",
+    "url": "./TB-01%20Ultra.png"
+  },
+  {
+    "fileName": "TD1 Pro 12 (2).png",
+    "displayName": "TD1 Pro 12 (2)",
+    "extension": "png",
+    "url": "./TD1%20Pro%2012%20(2).png"
+  },
+  {
+    "fileName": "TD1 Pro 12.png",
+    "displayName": "TD1 Pro 12",
+    "extension": "png",
+    "url": "./TD1%20Pro%2012.png"
   },
   {
     "fileName": "TE-071A (2).png",
@@ -232,6 +520,18 @@ export const images = [
     "displayName": "TP01",
     "extension": "png",
     "url": "./TP01.png"
+  },
+  {
+    "fileName": "TSS02-I.png",
+    "displayName": "TSS02-I",
+    "extension": "png",
+    "url": "./TSS02-I.png"
+  },
+  {
+    "fileName": "TSS02-J.png",
+    "displayName": "TSS02-J",
+    "extension": "png",
+    "url": "./TSS02-J.png"
   },
   {
     "fileName": "Y3000 110ml.png",
@@ -502,5 +802,11 @@ export const images = [
     "displayName": "YXV84",
     "extension": "png",
     "url": "./YXV84.png"
+  },
+  {
+    "fileName": "ZHANLIDA E8000 (50ml).png",
+    "displayName": "ZHANLIDA E8000 (50ml)",
+    "extension": "png",
+    "url": "./ZHANLIDA%20E8000%20(50ml).png"
   }
 ];
