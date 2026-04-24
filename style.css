@@ -45,6 +45,7 @@ body {
   margin-bottom: 0.5rem;
   background: linear-gradient(to right, #fff, #a5b4fc);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -1px;
 }
@@ -176,6 +177,64 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.ref-field {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--card-border);
+}
+
+.ref-label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.ref-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ref-input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  color: var(--text-main);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  min-width: 0;
+}
+
+.ref-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.ref-input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.ref-status {
+  font-size: 0.8rem;
+  min-width: 1rem;
+  text-align: center;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.ref-status.saving { color: var(--text-muted); }
+.ref-status.saved  { color: #4ade80; }
+.ref-status.error  { color: #f87171; }
 
 .footer {
   text-align: center;
