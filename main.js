@@ -1,6 +1,7 @@
 import { images } from './imageData.js';
 import { db } from './firebase.js';
 import { collection, doc, setDoc, onSnapshot } from 'firebase/firestore';
+import * as XLSX from 'xlsx';
 
 const galleryGrid = document.getElementById('gallery-grid');
 const searchInput = document.getElementById('searchInput');
@@ -126,4 +127,30 @@ onSnapshot(collection(db, 'references'), (snapshot) => {
 searchInput.addEventListener('input', (e) => {
   currentFilter = e.target.value.toLowerCase();
   renderGallery(getFilteredImages());
+});
+
+function buildExportRows() {
+  return images.map(img => ({
+    'Nom': img.displayName,
+    'Référence interne': refsData[img.fileName] || ''
+  }));
+}
+
+document.getElementById('exportJSON').addEventListener('click', () => {
+  const data = buildExportRows();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'references.json';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById('exportXLSX').addEventListener('click', () => {
+  const data = buildExportRows();
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Références');
+  XLSX.writeFile(wb, 'references.xlsx');
 });
